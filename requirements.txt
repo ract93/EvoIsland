@@ -45,3 +45,5 @@ traitlets==5.14.3
 typing_extensions==4.15.0
 tzdata==2025.3
 webencodings==0.5.1
+pybind11==3.0.4
+scikit-build-core==0.10.7

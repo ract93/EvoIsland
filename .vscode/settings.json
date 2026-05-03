@@ -1,5 +1,4 @@
 {
-    "inlineChat.defaultModel": "Claude Opus 4.6 (claude-code)",
     "inlineChat.notebookAgent": true,
     "chat.tools.terminal.sandbox.enabled": true,
     "chat.restoreLastPanelSession": true,
@@ -8,5 +7,5 @@
     "chat.agent.codeBlockProgress": false,
     "chat.agent.thinking.collapsedTools": "off",
     "chat.agent.thinking.generateTitles": true,
-    "cmake.sourceDirectory": "D:/Storage/Github/Morphanimals/Evo Island"
+    "cmake.sourceDirectory": "D:/Storage/Github/EvoIsland"
 }

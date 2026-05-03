@@ -4,20 +4,20 @@ __pycache__/
 *.pyo
 
 # Simulation outputs
-Evo Island/Experimental_Results/
+Experimental_Results/
+*.h5
 
 # C++ build artifacts (CMake / scikit-build-core)
 build/
-Evo Island/build/
 *.pyd
 *.egg-info/
 *.dist-info/
 
-# Claude
-.claude/settings.local.json
-
 # Logs
 logs
+*.log
+npm-debug.log*
+yarn-debug.log*
 *.log
 npm-debug.log*
 yarn-debug.log*

@@ -12,22 +12,21 @@ pip install noise numpy matplotlib imageio pillow pandas nbformat nbconvert pybi
 ### Build the C++ simulation core
 The hot-path simulation loop is implemented in C++ and compiled as a Python extension (`evo_core`). Build it once before running:
 ```bash
-cd "Evo Island"
 pip install -e .
 ```
 This produces `evo_core.cp312-win_amd64.pyd` (Windows) alongside `evo_island.py`. Rerun after any changes to files in `cpp/`.
 
 ### Run
 ```bash
-python "Evo Island/evo_island.py"
+python evo_island.py
 ```
-Results are written to `Evo Island/Experimental_Results/<timestamp>/`.
+Results are written to `Experimental_Results/<timestamp>/`.
 
 ---
 
 ## Project Structure
 ```
-Evo Island/
+EvoIsland/
   evo_island.py        Entry point — loads config, starts experiment
   config.json          All simulation parameters (see below)
   CMakeLists.txt       C++ build definition
